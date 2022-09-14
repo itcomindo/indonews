@@ -1,0 +1,26 @@
+.sp-wr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 0 16px;
+}
+
+/* single post left */
+.sp-left {
+    padding: 0;
+    width: 75%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.sp-meta-post-wr {
+    padding: 16px;
+}
+/* Single Post Right Side */
+.sp-right {
+    width: 25%;
+    padding: 16px;
+    background-color: var(--google-red);
+}
