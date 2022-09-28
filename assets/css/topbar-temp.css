@@ -1,0 +1,144 @@
+/*
+* Topbar CSS
+* related to topbar-mn.php
+* this is temporary
+* will merge with wide-side.css
+* media query at bottom
+*/
+.mn-tb-pr {
+    padding: 0;
+    background-color: var(--color-darkred);
+    height: 40px;
+    box-shadow: 0 0 15px var(--color-black-3);
+}
+.mn-tb-wr {
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: var(--color-black);
+}
+
+/* Tb Left */
+.mn-tb-left {
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid var(--color-white-5);
+}
+.tb-all-cat-btn {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    margin: auto 0;
+    line-height: 1;
+    padding: 0 16px;
+    column-gap: 4px;
+    font-size: 14px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+/* Middle */
+.mn-tb-mid {
+    width: calc(60% - 32px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mn-tb-search-form-wr {
+    min-width: 100%;
+    max-width: 200px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tb-search-form {
+    padding: 4px 8px 4px 8px;
+    width: calc(60% - 40px);
+}
+.tb-submit-btn {
+    font-size: 14px;
+    padding: 4px;
+    height: auto;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4px;
+    background-color: var(--color-black);
+    color: var(--color-white);
+    cursor: pointer;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+
+/* Right */
+.mn-tb-right {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-left: 1px solid var(--color-white-5);
+}
+.mn-tb-right a {
+    margin: auto 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-black);
+}
+
+
+/* Media Query */
+@media(max-width:768px) {
+    .global-hide-on-768 {
+  display: none !important;
+}
+    .mn-tb-left {
+        justify-content: center !important;
+        align-items: flex-start !important;
+    }
+    .tb-all-cat-btn {
+        background-color: transparent !important;
+        color: white !important;
+        justify-content: flex-start !important;
+        margin: auto unset !important;
+    }
+}
+
+@media(max-width:500px) {
+    .mn-tb-mid {
+        width:80% !important;
+        justify-content: flex-end !important;
+        padding-right: 16px !important;
+    }
+    .mn-tb-search-form-wr {
+        justify-content: flex-end !important;
+    }
+    .tb-search-form {
+        padding: 4px 8px 4px 8px;
+        width: calc(75% - 40px) !important;
+    }
+    .mn-tb-right {
+        display: none !important;
+    }
+}
+

@@ -7,6 +7,19 @@
   background-color: transparent;
 }
 
+/*Clasess*/
+.global-input-form {
+  border: none;
+  border-radius: 3px;
+  font-size: 14px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+
+
 /* behaviour */
 html {
   scroll-behavior: smooth;
@@ -15,9 +28,20 @@ html {
   overflow: hidden;
   max-height: 100vh;
 }
+
 /* color variable */
 :root {
     /* coloring */
+    --color-white-2: rgba(255, 255, 255, 0.2);
+    --color-white-3: rgba(255, 255, 255, 0.3);
+    --color-white-4: rgba(255, 255, 255, 0.4);
+    --color-white-5: rgba(255, 255, 255, 0.5);
+    --color-white-75: rgba(255, 255, 255, 0.75);
+    --color-black-2: rgba(0, 0, 0, 0.2);
+    --color-black-3: rgba(0, 0, 0, 0.3);
+    --color-black-4: rgba(0, 0, 0, 0.4);
+    --color-black-5: rgba(0, 0, 0, 0.5);
+    --color-black-75: rgba(0, 0, 0, 0.75);
     --color-white: #fff;
     --color-black: #000;
     --color-darkred: #8b0000;

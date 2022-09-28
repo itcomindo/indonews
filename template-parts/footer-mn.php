@@ -9,3 +9,4 @@
         <h2 class="global-head-section">This Is Footer</h2>
     </div>
 </footer>
+

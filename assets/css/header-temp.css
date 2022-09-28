@@ -1,0 +1,15 @@
+/*
+* this is temporary css for header
+* this will be removed when header is implemented
+* Media query at bottom of file
+* will merge with wide-side.css
+*/
+
+.header-pr {
+    height: 92px;
+}
+.header-wr {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}

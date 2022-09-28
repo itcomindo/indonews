@@ -1,8 +1,7 @@
 <?php
 ?>
 <!DOCTYPE html>
-<html class="no-js" <?php // mn_schema(); 
-                    ?> <?php language_attributes(); ?>>
+<html class="no-js" <?php // mn_schema(); ?> lang="id-ID" >
 
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
@@ -10,13 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <title><?php echo get_the_title(); ?></title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js" defer></script>
     <?php wp_head(); ?>
 </head>
 
-<body>
-
-    <body <?php body_class(); ?>>
+<body <?php body_class(); ?>>
         <main id="global-site-content">
             <?php
             /**

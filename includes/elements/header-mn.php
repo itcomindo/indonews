@@ -1,7 +1,8 @@
 <?php
 /**
  * Element name: Header
- * Styling in header-mn.css (temporary)
+ * Styling in header-temp.css
+ * will merge with wide-side.css
  */
 ?>
 <header class="section header-pr">
@@ -14,8 +15,8 @@
         <div class="header-right"></div>
     </div>
 </header>
-<section class="section news-cat-pr">
+<div class="section news-cat-pr">
     <div class="container news-cat-wr">
         <?php news_cat_nav_mn(); ?>
     </div>
-</section>
+</div>
